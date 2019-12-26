@@ -1,0 +1,16 @@
+import React from 'react'
+import { View, Text, StyleSheet, FlatList } from 'react-native'
+
+const ResultsShowScreen = () => {
+    return (
+        <>
+            <Text>ResultsShowScreen</Text>
+        </>
+    )
+}
+
+const styles = StyleSheet.create({
+
+})
+
+export default ResultsShowScreen
