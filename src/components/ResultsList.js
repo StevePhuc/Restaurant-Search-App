@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
-const ResultsList = ({ title }) => {
+const ResultsList = ({ title, results }) => {
 
     return (
         <View>
             <Text style={styles.title}> {title}</Text>
+            <Text> {results.length}</Text>
         </View >
     )
 }
